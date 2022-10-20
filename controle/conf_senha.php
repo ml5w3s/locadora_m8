@@ -2,9 +2,9 @@
 include ("conexao.php");
 echo "<head><link rel='stylesheet' type='text/css' href='../estilos/estilo.css'></head>";
 try{	
-	$senha = $_POST['senha'];
-    $nova_senha = $_POST['nova_senha'];
-	if $senha<>$nova_senha{
+    $senha = $_POST['txt_senha'];
+    $nova_senha = $_POST['txt_nova_senha'];
+    if($senha<>$nova_senha){
        echo "Senhas não conferem, favor redigitar as senhas";
     }
 

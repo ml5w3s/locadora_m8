@@ -38,6 +38,13 @@ CREATE TABLE produtora(
     PRIMARY KEY(cod_produtora)
 ) ENGINE=innoDB DEFAULT CHARSET=utf8;
 
+CREATE TABLE usuario(
+    cod_usuario int NOT NULL AUTO_INCREMENT,
+    usuario varchar(45) NOT NULL,
+    senha varchar(6) NOT NULL,
+    PRIMARY KEY(cod_usuario)
+) ENGINE=innoDB DEFAULT CHARSET=utf8;
+
 CREATE TABLE filme(
     cod_filme int NOT NULL AUTO_INCREMENT,
     titulo varchar(30) NOT NULL,

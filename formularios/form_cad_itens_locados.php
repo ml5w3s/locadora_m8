@@ -10,7 +10,7 @@ $carro = [
 ];
 
 foreach ($carro as $key => $value) {
-    echo "<label><input type="checkbox" name="'. $carro[$i]['nome'] . '" value="' . $carro[$i]['nome'] . '">' . $carro[$i]['nome'] . '<br></label>";
+    echo "<label><input type='checkbox' name='". $carro[$i]['nome'] ."' value='" . $carro[$i]['nome'] . "'>" . $carro[$i]['nome'] . "<br></label>";
 }
 
 /*echo "<input type='checkbox' (click)='check(i)' [checked]='row.checked === true'>";
